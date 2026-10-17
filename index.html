@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulateur d'économies de chauffage</title>
+<meta name="description" content="Estimez en 1 minute ce que le pilotage du chauffage pièce par pièce peut vous faire économiser. Gratuit, sans inscription, rien n'est enregistré.">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="styles.css">
+<script src="config.js" defer></script>
+<script src="calcul.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<header class="entete">
+  <div class="conteneur entete__interieur">
+    <p class="entete__titre">Simulateur d'économies de chauffage</p>
+  </div>
+</header>
+
+<main id="contenu" class="conteneur">
+  <noscript>
+    <div class="texte-long">
+      <p>Ce simulateur a besoin de JavaScript : le calcul se fait dans votre navigateur, rien n'est envoyé.</p>
+      <p><a href="mentions-legales.html">Mentions légales</a></p>
+    </div>
+  </noscript>
+</main>
+
+<p id="annonce" class="visuellement-cache" aria-live="polite"></p>
+</body>
+</html>
